@@ -53,16 +53,11 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-#loginModal .modal-body {
+.modal-body {
   background: #D1C4E9; }
 
-#loginModal .modal-header {
+.modal-header {
   background: #512DA8;
   color: floralwhite; }
-
-#reserve .modal-body {
-  background: #D1C4E9; }
-
-#reserve .modal-header {
-  background: #512DA8;
-  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }

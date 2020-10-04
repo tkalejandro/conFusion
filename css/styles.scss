@@ -75,23 +75,14 @@ body{
     z-index: 1;
 }
 
-#loginModal {
-    .modal-body {
-        background: $background-pale;
-    }
-    .modal-header {
-        background: $background-dark;
-        color:floralwhite;
-    }
+.modal-body {
+    background: $background-pale;
 }
-
-#reserve {
-    .modal-body {
-        background: $background-pale;
-    }
     
-    .modal-header {
-            background: $background-dark;
-            color: floralwhite;
-        }
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;
+    .close {
+        color: floralwhite;
+    }
 }
